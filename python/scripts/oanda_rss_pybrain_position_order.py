@@ -10,7 +10,7 @@ from pybrain.datasets.supervised import SupervisedDataSet as SDS
 from sklearn.metrics import mean_squared_error as MSE
 # import matplotlib.pyplot as plt
 from sqlalchemy import create_engine
-import pandas as pds
+import pandas as pds y
 from sqlalchemy import text
 
 import datetime

@@ -1,15 +1,3 @@
-# from __future__ import print_function
-"""
-To show heartbeat, replace [options] by -b or --displayHeartBeat
-    Environment           <Domain>
-    fxTrade               stream-fxtrade.oanda.com
-    fxTrade Practice      stream-fxpractice.oanda.com
-    sandbox               stream-sandbox.oanda.com
-
- sudo /home/sdreep/Downloads/spark-2.0.0-bin-hadoop2.7/bin/spark-submit  --master spark://192.168.0.101:7077 --executor-memory 512M --driver-memory 1024M  --verbose --py-file: /home/sdreep/Downloads/spark-2.0.0-bin-hadoop2.7/python/lib/py4j-0.10.1-src.zip --jars /home/sdreep/Downloads/spark-2.0.0-bin-hadoop2.7/jars/py4j-0.10.1.jar --executor-cores 1 file:/home/sdreep/nabla/oanda/oanda_daemon12.py 1000
-
-sudo /home/sdreep/Downloads/spark-2.0.0-bin-hadoop2.7/bin/spark-submit  spark.driver.extraJavaOptions=-XX:+UseG1GC -XX:NewRatio=3  ---master spark://192.168.0.101:7077 --executor-memory 512M --driver-memory 1024M  --py-files /home/sdreep/Downloads/spark-2.0.0-bin-hadoop2.7/python/lib/py4j-0.10.1-src.zip --jars /home/sdreep/Downloads/spark-2.0.0-bin-hadoop2.7/jars/py4j-0.10.1.jar --executor-cores 1 file:/home/sdreep/nabla/oanda/oanda_daemon12.py 1000
-"""
 from __future__ import print_function
 stream_domain = 'stream-fxpractice.oanda.com'
 api_domain = 'api-fxpractice.oanda.com'
@@ -26,6 +14,28 @@ import psycopg2.extras
 import psycopg2.extensions
 import simplejson as json
 from datetime import datetime
+import zmq
+import random
+import sys
+import time
+
+port = "5556"
+if len(sys.argv) > 1:
+    port = sys.argv[1]
+    int(port)
+
+context = zmq.Context()
+socket = context.socket(zmq.PUB)
+
+# Update
+# socket.setsockopt(zmq.ZMQ_IMMEDIATE, 1)
+socket.setsockopt(zmq.SNDBUF, 10240)
+socket.setsockopt(zmq.SNDHWM, 10000)
+# socket.setsockopt(zmq.SWAP, 25000000)
+
+socket.bind("tcp://*:%s" % port)
+
+
 def connect_to_api():
     try:
         s = requests.Session()
@@ -108,6 +118,8 @@ def quote_recorder(instrument, timestamp, bid, ask):
     except psycopg2.DatabaseError as e:
         print ("DB_ERROR:",'Error %s' % e)
 
+
+
 def oanda(displayHeartbeat):
     global instrument, timestamp, bid, ask
 
@@ -126,6 +138,10 @@ def oanda(displayHeartbeat):
 
                     ask = msg['tick']['ask']
                     bid = msg['tick']['bid']
+
+                    topic = str(instrument)
+                    messagedata = str(timestamp)+"\x01"+str(bid)+"\x01"+str(ask)
+                    socket.send_string("%s %s" % (topic, messagedata))
                     print (instrument, timestamp, bid, ask)
                     # quote_recorder(timestamp,instrument, bid, ask)
 
@@ -133,11 +149,17 @@ def oanda(displayHeartbeat):
                     heartbit_ts = datetime.strptime(msg['heartbeat']['time'][:-1],'%Y-%m-%dT%H:%M:%S.%f')
                     now_ts = datetime.strptime(datetime.utcnow().isoformat(sep='T'), '%Y-%m-%dT%H:%M:%S.%f')
                     lag = now_ts - heartbit_ts
+                    topic = 'heartbit'
+                    messagedata = 'HEARTBEAT',heartbit_ts, now_ts, lag
+                    socket.send_string( "%s %s" % (topic , messagedata) )
+
                     print ('HEARTBEAT',heartbit_ts, now_ts, lag)
 
     except Exception as e:
         print ("Caught exception :\n" + str(e))
         return str(e)
+
+
 def main():
     global curve, data, ptr, p, lastTime, fps, x
     usage = "usage: %prog [options]"

@@ -280,7 +280,7 @@ def twitter(SeriesHelper):
                 }
              ]
 
-            myclient.write_points(tweet_json)
+            # myclient.write_points(tweet_json)
             #pipeline_record(timetext, positive_score, negative_score, time_zone, location_colored, user_colored,statuses_count, followers_count, lang, text_colored)
 
     except InfluxDBClientError as e:
