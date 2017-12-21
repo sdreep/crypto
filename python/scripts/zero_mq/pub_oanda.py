@@ -9,9 +9,6 @@ candles = []
 import requests
 # import httplib as http_client
 from optparse import OptionParser
-import psycopg2
-import psycopg2.extras
-import psycopg2.extensions
 import simplejson as json
 from datetime import datetime
 import zmq
@@ -32,7 +29,6 @@ socket = context.socket(zmq.PUB)
 socket.setsockopt(zmq.SNDBUF, 10240)
 socket.setsockopt(zmq.SNDHWM, 10000)
 # socket.setsockopt(zmq.SWAP, 25000000)
-
 socket.bind("tcp://*:%s" % port)
 
 
@@ -93,33 +89,6 @@ def connect_to_stream():
         s.close()
         print ("Caught exception when connecting to stream\n" + str(e))
 
-def recorder_connect():
-    try:
-        conn=psycopg2.connect("host='192.168.0.100' port='5432' dbname='pipeline' user='pipeline' password='pipeline'")
-        conn.autocommit = True
-        return conn
-    except psycopg2.DatabaseError as e:
-        print ("I am unable to connect to the database.")
-        print ('Error %s' % e)
-    return conn
-
-def quote_recorder(instrument, timestamp, bid, ask):
-    conn = recorder_connect()
-    try:
-        cur = conn.cursor()
-        cur.execute('INSERT INTO oanda_tick (timestmp, instrument,  bid, ask)\
-        VALUES (%s,%s,%s,%s);', (instrument, timestamp, bid, ask))
-        # print (instrument, timestamp, bid, ask)
-        # conn.commit()
-        # cur.close()
-        # conn.close()
-        print (instrument, timestamp, bid, ask)
-
-    except psycopg2.DatabaseError as e:
-        print ("DB_ERROR:",'Error %s' % e)
-
-
-
 def oanda(displayHeartbeat):
     global instrument, timestamp, bid, ask
 
@@ -139,18 +108,20 @@ def oanda(displayHeartbeat):
                     ask = msg['tick']['ask']
                     bid = msg['tick']['bid']
 
-                    topic = str(instrument)
-                    messagedata = str(timestamp)+"\x01"+str(bid)+"\x01"+str(ask)
+                    topic = 'oanda_tick'
+                    messagedata = str(instrument)+"\x01" + str(timestamp)+"\x01"+str(bid)+"\x01"+str(ask)
                     socket.send_string("%s %s" % (topic, messagedata))
-                    print (instrument, timestamp, bid, ask)
+                    topic = str(instrument)
+                    socket.send_string ( "%s %s" % (topic , messagedata) )
+#                    print (instrument, timestamp, bid, ask)
                     # quote_recorder(timestamp,instrument, bid, ask)
 
                 if 'heartbeat' in msg:
                     heartbit_ts = datetime.strptime(msg['heartbeat']['time'][:-1],'%Y-%m-%dT%H:%M:%S.%f')
                     now_ts = datetime.strptime(datetime.utcnow().isoformat(sep='T'), '%Y-%m-%dT%H:%M:%S.%f')
                     lag = now_ts - heartbit_ts
-                    topic = 'heartbit'
-                    messagedata = 'HEARTBEAT',heartbit_ts, now_ts, lag
+                    topic = 'oanda_heartbit'
+                    messagedata = heartbit_ts, now_ts, lag
                     socket.send_string( "%s %s" % (topic , messagedata) )
 
                     print ('HEARTBEAT',heartbit_ts, now_ts, lag)

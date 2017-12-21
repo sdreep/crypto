@@ -13,10 +13,10 @@ if len(sys.argv) > 2:
 # Socket to talk to server
 context = zmq.Context()
 socket = context.socket(zmq.SUB)
-topicfilter = "GBP_USD"
+topicfilter= "GBP_USD"
 socket.setsockopt(zmq.SUBSCRIBE, topicfilter)
 socket.setsockopt(zmq.SUBSCRIBE, "1")
-print "Collecting updates from weather server..."
+print ("Collecting updates from weather server...")
 socket.connect("tcp://localhost:%s" % port)
 
 if len(sys.argv) > 2:
@@ -33,7 +33,7 @@ for update_nbr in range(5000):
     time, bid, ask = messagedata.split('\x01')
     # msg = json.dumps(messagedata)
     # total_value += int(messagedata)
-    print topic, time, bid, ask
+    print (topic, time, bid, ask)
 
-print "Average messagedata value for topic '%s' was %dF" % (topicfilter, total_value / update_nbr)
+print ("Average messagedata value for topic '%s' was %dF" % (topicfilter, total_value / update_nbr))
 
