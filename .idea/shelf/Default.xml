@@ -1,0 +1,929 @@
+<changelist name="Default" date="1511822102486" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Default/shelved.patch" />
+  <option name="DESCRIPTION" value="Default" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-lb.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-lb.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_reqrep_tcp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_tcp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_pair_inproc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_pair_inproc" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-encoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-encoder.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-options.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-options.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-poll.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-poll.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_router_mandatory" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_router_mandatory" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-err.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-err.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-req.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-req.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-io_object.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-io_object.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-lb.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-lb1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-zmq.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-zmq.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-v1_encoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-v1_encoder.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-zmq_utils.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-zmq_utils.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_reqrep_device.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_device.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-push.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-push.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_pair_ipc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_pair_ipc" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/.libs/inproc_thr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/inproc_thr" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_disconnect_inproc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_disconnect_inproc" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-pair.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pair.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-proxy.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-proxy.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_connect_resolve.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_connect_resolve.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/.libs/local_thr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/local_thr" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-rep.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-rep.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-mailbox.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-mailbox.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-own.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-own.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-address.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-address.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-clock.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-clock.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq.a" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq.a" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-socket_base.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-socket_base.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_shutdown_stress.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_shutdown_stress.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/foreign/openpgm/libpgm-5.1.118~dfsg.tar.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libpgm-5.1.118~dfsg.tar.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="text/words.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/words.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-clock.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-clock1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-ip.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ip.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-signaler.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-signaler.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_msg_flags.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_msg_flags.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq.so.3.0.0" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq.so.3.0.0" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-tcp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_timeo.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_timeo.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/remote_thr.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/remote_thr.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_reqrep_ipc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_ipc" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-v1_encoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-v1_encoder1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-trie.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-trie.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-io_thread.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-io_thread.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-tcp_listener.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp_listener.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-stream_engine.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-stream_engine.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_last_endpoint.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_last_endpoint.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-poller_base.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-poller_base.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_pair_tcp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_pair_tcp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_reqrep_tcp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_tcp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-router.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-router.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-kqueue.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-kqueue.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-pull.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pull.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="text/sentiwordnet.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/sentiwordnet.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_msg_flags" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_msg_flags" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-ipc_connecter.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ipc_connecter.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/local_lat.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/local_lat.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-tcp_address.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp_address.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_reqrep_device" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_device" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_hwm.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_hwm.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-pub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pub.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_invalid_rep" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_invalid_rep" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-xsub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-xsub.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-io_object.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-io_object1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-ipc_listener.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ipc_listener.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="text/word2vec_sample.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/word2vec_sample.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-msg.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-msg.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-xsub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-xsub1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_reqrep_ipc.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_ipc.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_pair_ipc.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_pair_ipc.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-devpoll.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-devpoll.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-devpoll.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-devpoll1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_reqrep_inproc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_inproc" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-tcp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-thread.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-thread.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_hwm" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_hwm" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_pair_tcp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_pair_tcp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-select.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-select.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-decoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-decoder.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_timeo" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_timeo" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-session_base.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-session_base.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/local_thr.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/local_thr.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/inproc_thr.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/inproc_thr.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-ip.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ip1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-ipc_address.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ipc_address.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-err.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-err1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-ipc_listener.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ipc_listener1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-pgm_receiver.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pgm_receiver.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-ipc_address.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ipc_address1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_monitor" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_monitor" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-session_base.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-session_base1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/inproc_lat.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/inproc_lat.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_connect_delay" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_connect_delay" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-xpub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-xpub.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="text/stopwords.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/stopwords.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-xpub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-xpub1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-dealer.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-dealer.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-random.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-random.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-reaper.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-reaper.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-own.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-own1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/remote_lat.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/remote_lat.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-pgm_receiver.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pgm_receiver1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="python/scripts/crypto/bitcoin-price-api-master/dist/bitcoin_price_api-0.0.4-py2.7.egg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/bitcoin_price_api-0.0.4-py2.7.egg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="text/city_database.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/city_database.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-object.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-object.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_reqrep_inproc.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_reqrep_inproc.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-encoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-encoder1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-push.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-push1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-object.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-object1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-tcp_listener.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp_listener1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="text/opinion_lexicon.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/opinion_lexicon.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_last_endpoint" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_last_endpoint" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_term_endpoint.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_term_endpoint.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5.tar.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/zeromq-3.2.5.tar.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-reaper.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-reaper1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/.libs/remote_lat" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/remote_lat" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_invalid_rep.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_invalid_rep.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-pair.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pair1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_pair_inproc.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_pair_inproc.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq.so.3" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq.so.3" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-address.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-address1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-io_thread.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-io_thread1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-rep.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-rep1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-random.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-random1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-sub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-sub.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-v1_decoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-v1_decoder.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-fq.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-fq.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-mtrie.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-mtrie.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-zmq.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-zmq1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-poller_base.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-poller_base1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-v1_decoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-v1_decoder1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-req.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-req1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-tcp_address.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp_address1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_term_endpoint" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_term_endpoint" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-ctx.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ctx.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-zmq_utils.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-zmq_utils1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-signaler.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-signaler1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-trie.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-trie1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-socket_base.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-socket_base1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_sub_forward.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_sub_forward.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/.libs/inproc_lat" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/inproc_lat" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/.libs/local_lat" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/local_lat" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-pull.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pull1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-tcp_connecter.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp_connecter.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_connect_resolve" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_connect_resolve" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-options.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-options1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-pipe.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pipe.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-dealer.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-dealer1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-pipe.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pipe1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-epoll.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-epoll.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="text/sentence_polarity.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/sentence_polarity.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-ctx.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ctx1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-thread.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-thread1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-pgm_sender.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pgm_sender.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_sub_forward" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_sub_forward" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-kqueue.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-kqueue1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-decoder.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-decoder1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_monitor.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_monitor.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-epoll.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-epoll1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-pgm_sender.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pgm_sender1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-sub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-sub1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="python/scripts/crypto/doc/iqoptionapi.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/iqoptionapi.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-stream_engine.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-stream_engine1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-router.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-router1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/.libs/test_shutdown_stress" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_shutdown_stress" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-tcp_connecter.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-tcp_connecter1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-mailbox.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-mailbox1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-mtrie.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-mtrie1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-fq.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-fq1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-proxy.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-proxy1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/perf/.libs/remote_thr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/remote_thr" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-dist.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-dist.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_router_mandatory.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_router_mandatory.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-select.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-select1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-msg.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-msg1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-poll.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-poll1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-ipc_connecter.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-ipc_connecter1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_disconnect_inproc.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_disconnect_inproc.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/tests/test_connect_delay.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/test_connect_delay.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-pub.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pub1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-pgm_socket.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pgm_socket.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/libzmq_la-pgm_socket.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-pgm_socket1.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="mq/zeromq-3.2.5/src/.libs/libzmq_la-dist.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/libzmq_la-dist1.o" />
+  </binary>
+</changelist>

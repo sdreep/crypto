@@ -6,10 +6,10 @@ instruments = "BCHUSD"
 
 while True:
     response = ccs.kraken.public.getTickerInformation ( instruments )
-    # print (response)
+    print (response)
     msg = json.loads(response)
     ticks = msg['result']
-    # print (ticks)
+    print (ticks)
     tick = ticks[instruments]
     ask_price, ask_whole_lot_volume, ask_lot_volume = tick['a']
     bid_price, bid_whole_lot_volume, bid_lot_volume = tick['b']

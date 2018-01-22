@@ -26,5 +26,3 @@ for instrument in instruments:
     margin_stop = instrument_details['margin_stop']
     count = count + 1
     print(count,instrument,altname,aclass_base,base,aclass_quote,quote,lot,pair_decimals,lot_decimals,lot_multiplier,leverage_buy,leverage_sell,fee_volume_currency,margin_call,margin_stop,margin_call,margin_stop)
-
-
