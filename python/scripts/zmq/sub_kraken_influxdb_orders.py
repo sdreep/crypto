@@ -4,8 +4,8 @@ import simplejson as json
 from datetime import datetime
 
 # InfluxDB connections settings
-host = '192.168.0.15'
-port = 8186
+host = '192.168.0.33'
+port = 8086
 user = 'zmq'
 password = 'zmq'
 dbname = 'tick'
@@ -27,6 +27,14 @@ while True:
     ticks = msg['result']
     for tick in ticks:
         instrument = str(tick)
+        if instrument[0] == 'X' and instrument[-4] == 'Z':
+            base_ccy = instrument[1:4]
+            term_ccy = instrument[-3:]
+            # print (base_ccy,term_ccy)
+        elif len(instrument) == 6 and instrument[-4] != '_':
+            base_ccy = instrument[0:3]
+            term_ccy = instrument[3:6]
+            # print (base_ccy,term_ccy)
         tick = ticks[instrument]
         for index, item in enumerate(tick['bids']):
             tier_id = str(index)
@@ -34,8 +42,8 @@ while True:
             top_bid_volume = str(item[1])
             timestamp = str(item[2])
             # ms_timestamp = datetime.fromtimestamp ( timestamp ).strftime ( '%Y-%m-%dT%H:%M:%S.%f' )
-            line = 'depth,instrument=' + instrument + ' tier_id=' + tier_id + ',top_bid=' + top_bid + ',top_bid_volume=' + top_bid_volume
-            myclient.write_points(line, protocol='line', time_precision='ms')
+            line = 'depth,instrument=' + instrument + ',base_ccy=' + base_ccy + ',term_ccy=' + term_ccy + ' tier_id=' + tier_id + ',top_bid=' + top_bid + ',top_bid_volume=' + top_bid_volume
+            myclient.write_points(line, protocol='line',batch_size=500,  time_precision='ms')
             # print(line)
 
         for index, item in enumerate(tick['asks']):
@@ -44,6 +52,6 @@ while True:
             top_ask_volume = str(item[1])
             timestamp = (item[2])
             # ms_timestamp = datetime.fromtimestamp ( timestamp ).strftime ( '%Y-%m-%dT%H:%M:%S.%f' )
-            line = 'depth,instrument=' + instrument + ' tier_id=' + tier_id + ',top_ask=' + top_ask + ',top_ask_volume=' + top_ask_volume
-            myclient.write_points(line, protocol='line', time_precision='ms')
+            line = 'depth,instrument=' + instrument + ',base_ccy=' + base_ccy + ',term_ccy=' + term_ccy + ' tier_id=' + tier_id + ',top_ask=' + top_ask + ',top_ask_volume=' + top_ask_volume
+            myclient.write_points(line, protocol='line', batch_size=500, time_precision='ms')
             # print (line)

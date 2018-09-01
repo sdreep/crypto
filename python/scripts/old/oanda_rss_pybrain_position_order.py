@@ -10,7 +10,7 @@ from pybrain.datasets.supervised import SupervisedDataSet as SDS
 from sklearn.metrics import mean_squared_error as MSE
 # import matplotlib.pyplot as plt
 from sqlalchemy import create_engine
-import pandas as pds y
+import pandas as pds
 from sqlalchemy import text
 
 import datetime
@@ -23,7 +23,7 @@ from oandapyV20 import API
 from oandapyV20.exceptions import V20Error
 from oandapyV20.endpoints.pricing import PricingStream
 
-# stream_domain = 'stream-fxpractice.oanda.com'
+stream_domain = 'stream-fxpractice.oanda.com'
 # api_domain = 'api-fxpractice.oanda.com'
 # access_token = '2b557bdd4fa3dee56c8a159ece012a48-5f5a29d25cb2e7ea1aaeba98f4bbca40'
 # account_id = '9276489'
@@ -273,7 +273,7 @@ def select(instrument,term1,term2):
     return (aggregate_quotes_ohlc_train,aggregate_quotes_ohlc_validate,aggregate_quotes,aggregate_ttrss,aggregate_quotes_last_hour,aggregate_ttrss_last_hour)
 def pd_connect_oanda():
 	try:
-		engine_oanda = create_engine('postgresql://postgres:postgres@nablas.ddns.net:5105/oanda')
+		engine_oanda = create_engine('postgresql://oanda:oanda@192.168.0.120:5432/oanda')
 		return engine_oanda
 	except create_engine as e:
 		print("I am unable to connect to the database.")
@@ -285,7 +285,7 @@ def pd_aggegate_quotes(select):
 	return ohlc_df
 def pd_connect_ttrss():
 	try:
-		engine_ttrss = create_engine('postgresql://ttrss:ttrss@nablas.ddns.net:5105/ttrss')
+		engine_ttrss = create_engine('postgresql://ttrss:Welcome01@192.168.0.120:5432/ttrss')
 		return engine_ttrss
 	except create_engine as e:
 		print("I am unable to connect to the database.")

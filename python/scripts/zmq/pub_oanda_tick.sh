@@ -5,7 +5,7 @@ do
 
 #	for(( ; ; ))
 #	do
-    	python3.5  './pub_oanda_tick.py'
+    	python3.5  '/home/zmq/nabla/python/scripts/zmq/pub_oanda_tick.py'
 #'/home/sdreep/nabla/python/oanda_rss_pybrain_position_order.py'
 #		for(( ; ; ))
 #		do

@@ -24,7 +24,7 @@ if len(sys.argv) > 2:
 context = zmq.Context()
 socket = context.socket(zmq.SUB)
 topicfilter = "kr_eurusd_tick"
-socket.setsockopt_string(zmq.SUBSCRIBE,topicfilter)
+socket.setsockopt_string(zmq.SUBSCRIBE, topicfilter)
 socket.setsockopt_string(zmq.SUBSCRIBE, "1")
 print("Collecting updates from weather server...")
 socket.connect("tcp://192.168.0.13:%s" % port)
@@ -61,6 +61,6 @@ while True:
     # ]
     line = 'synthetic,instrument=KR_EURUSD,instrument_t0=' + instrument_t0 + ',instrument_t1=' + instrument + ' kraken_EURUSD_BID_5_t0='+kraken_EURUSD_BID_5_t0+',kraken_EURUSD_ASK_5_t0='+kraken_EURUSD_ASK_5_t0+',kraken_EURUSD_BID_5_t1='+kraken_EURUSD_BID_5_t1+',kraken_EURUSD_ASK_5_t1='+kraken_EURUSD_ASK_5_t1+',spread_t_bid='+spread_t_bid+',spread_t_ask='+spread_t_ask+',spread='+spread
     # print (line)
-    myclient.write_points( line , protocol='line', time_precision='ms')
+    myclient.write_points( line , protocol='line',batch_size=500,  time_precision='ms')
     # myclient.write_points(tick_json, batch_size=500, time_precision='u')
     # print(instrument_t0, kraken_EURUSD_BID_5_t0, kraken_EURUSD_ASK_5_t0, instrument , kraken_EURUSD_BID_5_t1 , kraken_EURUSD_ASK_5_t1 , spread, spread_t_bid, spread_t_ask)

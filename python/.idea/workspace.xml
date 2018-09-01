@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8696b2f3-a0f4-4446-a9be-2a9c0efc7728" name="Default" comment="zero mq &#10;kraken">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/bitcoin_price_api-0.0.4-py2.7.egg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/city_database.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/inproc_lat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/inproc_lat.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/inproc_thr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/inproc_thr.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/iqoptionapi.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libpgm-5.1.118~dfsg.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq.so.3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq.so.3.0.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-address.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-address1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-clock.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-clock1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ctx.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ctx1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-dealer.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-dealer1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-decoder.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-decoder1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-devpoll.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-devpoll1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-dist.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-dist1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-encoder.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-encoder1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-epoll.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-epoll1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-err.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-err1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-fq.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-fq1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-io_object.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-io_object1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-io_thread.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-io_thread1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ip.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ip1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ipc_address.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ipc_address1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ipc_connecter.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ipc_connecter1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ipc_listener.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-ipc_listener1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-kqueue.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-kqueue1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-lb.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-lb1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-mailbox.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-mailbox1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-msg.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-msg1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-mtrie.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-mtrie1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-object.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-object1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-options.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-options1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-own.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-own1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pair.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pair1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pgm_receiver.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pgm_receiver1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pgm_sender.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pgm_sender1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pgm_socket.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pgm_socket1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pipe.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pipe1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-poll.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-poll1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-poller_base.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-poller_base1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-proxy.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-proxy1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pub.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pub1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pull.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-pull1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-push.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-push1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-random.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-random1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-reaper.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-reaper1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-rep.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-rep1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-req.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-req1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-router.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-router1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-select.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-select1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-session_base.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-session_base1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-signaler.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-signaler1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-socket_base.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-socket_base1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-stream_engine.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-stream_engine1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-sub.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-sub1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp_address.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp_address1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp_connecter.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp_connecter1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp_listener.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-tcp_listener1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-thread.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-thread1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-trie.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-trie1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-v1_decoder.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-v1_decoder1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-v1_encoder.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-v1_encoder1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-xpub.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-xpub1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-xsub.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-xsub1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-zmq.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-zmq1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-zmq_utils.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/libzmq_la-zmq_utils1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/local_lat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/local_lat.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/local_thr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/local_thr.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/opinion_lexicon.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/remote_lat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/remote_lat.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/remote_thr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/remote_thr.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/sentence_polarity.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/sentiwordnet.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/stopwords.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_connect_delay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_connect_delay.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_connect_resolve" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_connect_resolve.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_disconnect_inproc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_disconnect_inproc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_hwm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_hwm.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_invalid_rep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_invalid_rep.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_last_endpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_last_endpoint.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_monitor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_monitor.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_msg_flags" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_msg_flags.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_pair_inproc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_pair_inproc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_pair_ipc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_pair_ipc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_pair_tcp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_pair_tcp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_device" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_device.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_inproc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_inproc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_ipc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_ipc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_tcp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_reqrep_tcp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_router_mandatory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_router_mandatory.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_shutdown_stress" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_shutdown_stress.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_sub_forward" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_sub_forward.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_term_endpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_term_endpoint.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_timeo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/test_timeo.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/word2vec_sample.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/words.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/zeromq-3.2.5.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/shelf/Default/shelved.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/zero_mq/pub_oanda.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/zero_mq/sub_kraken_tick.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/zero_mq/sub_oanda.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../nabla" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.py" afterPath="$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/zero_mq/pub_oanda.py" afterPath="$PROJECT_DIR$/scripts/zero_mq/pub_oanda.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/zero_mq/pub_server.py" afterPath="$PROJECT_DIR$/scripts/zero_mq/pub_server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/zero_mq/sub_oanda.py" afterPath="$PROJECT_DIR$/scripts/zero_mq/sub_oanda.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="pub_kraken_tick.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="137">
+                  <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sub_influxdb.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#1#36#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="twitter_location_influx.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/twitter_location_influx.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sub_oanda.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_oanda.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pub_oanda.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_oanda.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sub_influxdb.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="483">
+                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pub_oanda.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_oanda.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="372">
+                  <caret line="120" column="44" lean-forward="true" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="sub_kraken_tick.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_kraken_tick.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pub_kraken_tick.sh" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="oanda_tick_influx.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/oanda_tick_influx.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="819">
+                  <caret line="304" column="0" lean-forward="true" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sub_oanda.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_oanda.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>scripts.zmq</find>
+      <find>socket</find>
+      <find>,</find>
+      <find>XXBT</find>
+      <find>XXBTZUSD</find>
+      <find>USD</find>
+      <find>&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>zmq</replace>
+      <replace>+&quot;\x01&quot;+</replace>
+      <replace>zmq_socket</replace>
+      <replace>.encode()+ &quot;\x01&quot;+</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/oanda_rss_pybrain_position_order.py" />
+        <option value="$PROJECT_DIR$/scripts/zmq/pub_server.py" />
+        <option value="$PROJECT_DIR$/scripts/PUB-twitter_influx_sentiment_location.py" />
+        <option value="$PROJECT_DIR$/scripts/zmq/sub_client.py" />
+        <option value="$PROJECT_DIR$/scripts/zmq/PUB-twitter_influx_sentiment_location.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/forwarder_device.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/forwarder_server.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/forwarder_subscriber.py" />
+        <option value="$PROJECT_DIR$/scripts/twitter_influx_sentiment_location.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/PUB-twitter_influx_sentiment_location_1.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/twitter_pub_zmq.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/server_pub.py" />
+        <option value="$PROJECT_DIR$/scripts/zmq/zmq4.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/tew.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/PUB-twitter_influx_sentiment_location.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/tw_pu_z.py" />
+        <option value="$PROJECT_DIR$/scripts/oanda_daemon13.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/iq_option.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/hit-btc.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/json_rpc.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/sub_client.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/sub_tweet.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/pub_tweet.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/kraken_CurrencyViewer.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/kraken/python-kraken/python-kraken-master/test.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/kraken/python-kraken/python-kraken-master/kraken.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/pykrakenapi-master/pykrakenapi/pykrakenapi.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/kraken/kraken_CurrencyViewer.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/ccs/getTradableAssetPairs.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/pub_kraken_listing.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/ccs/getTickerInformation.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/kraken/print-depth.py" />
+        <option value="$PROJECT_DIR$/scripts/crypto/ccs/getRecentTrades.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/pub_server.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/sub_kraken_tick.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/pub_oanda.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/twitter_sentiment_influx.sh" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/pub_oanda.sh" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.sh" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/sub_oanda.py" />
+        <option value="$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="ccs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="kraken" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="pykrakenapi-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="pykrakenapi-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pykrakenapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="pykrakenapi-master" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="zero_mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="C:/Python27/python.exe" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\nabla\python\scripts\zero_mq" />
+      <recent name="C:\Users\User\nabla\python\scripts\crypto" />
+      <recent name="C:\Users\User\nabla\python\scripts\crypto\kraken" />
+      <recent name="C:\Users\User\nabla\python\scripts\crypto\kraken\krakenex\python3-krakenex-master\examples" />
+      <recent name="C:\Users\User\nabla\python\scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\nabla\python\scripts\crypto\kraken" />
+      <recent name="C:\Users\User\nabla\python\scripts\zero_mq" />
+      <recent name="C:\Users\User\nabla\python\scripts\zmq" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.sub_influxdb">
+    <configuration name="pub_kraken_tick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/zero_mq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pub_oanda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/zero_mq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/zero_mq/pub_oanda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sub_influxdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/zero_mq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sub_kraken_tick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/zero_mq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/zero_mq/sub_kraken_tick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sub_oanda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/zero_mq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/zero_mq/sub_oanda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.pub_kraken_tick" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pub_oanda" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sub_kraken_tick" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sub_influxdb" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sub_oanda" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.sub_influxdb" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sub_oanda" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pub_oanda" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pub_kraken_tick" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sub_kraken_tick" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8696b2f3-a0f4-4446-a9be-2a9c0efc7728" name="Default" comment="" />
+      <created>1512222989043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512222989043</updated>
+    </task>
+    <task id="LOCAL-00001" summary="zero mq &#10;kraken">
+      <created>1513584191848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513584191848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in___init__ - 2017.12.18 at 06h 06m 17s.xml">
+      <configuration name="Doctests in __init__" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 04m 03s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 04m 11s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 04m 14s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 04m 38s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 04m 43s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 04m 48s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 05m 19s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 05m 31s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_pykrakenapi - 2017.12.18 at 06h 06m 05s.xml">
+      <configuration name="Doctests in pykrakenapi" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.48764768" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33258426" sideWeight="0.518797" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280899" sideWeight="0.48120302" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18313642" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="GitLabIntegration" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zero mq &#10;kraken" />
+    <option name="LAST_COMMIT_MESSAGE" value="zero mq &#10;kraken" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Python27/Lib/site-packages/krakenex/__init__.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/crypto/ccs/getTradableAssetPairs.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="instruments" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/iq_option.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/hit-btc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/server_pub.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/json_rpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/twitter-stream-search-location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/forwarder_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/forwarder_device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/krakenex/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1069">
+          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/kraken_connect.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/krakenex/python3-krakenex-master/examples/print-depth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/krakenex/python3-krakenex-master/examples/log-ohlc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/krakenex/python3-krakenex-master/examples/kraken.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_tweet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/krakenex/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/kraken/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/kraken/kraken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/python-kraken/python-kraken-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/python-kraken/python-kraken-master/generate-examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/krakenex/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/krakenex/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/python-kraken/python-kraken-master/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/python-kraken/python-kraken-master/kraken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/pykrakenapi-master/scripts/download_trade_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3136">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/pykrakenapi-master/pykrakenapi/pykrakenapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/ccs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/python-kraken/python-kraken-master/examples/getAssetPairs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/pub_kraken_listing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/ccs/getTickerInformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/kraken.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="88" lean-forward="false" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/kraken_CurrencyViewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/kraken/print-depth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/oanda_daemon13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/ccs/kraken/public/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/ccs/getRecentTrades.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crypto/ccs/getTradableAssetPairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_tweet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="43" column="100" lean-forward="false" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/zmq/sugar/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="441" column="8" lean-forward="false" selection-start-line="441" selection-start-column="8" selection-end-line="441" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/twitter_influx_sentiment_location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="282" column="47" lean-forward="true" selection-start-line="244" selection-start-column="12" selection-end-line="282" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/influx_zmq_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/oanda_tick_influx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="304" column="0" lean-forward="true" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/twitter_location_influx.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#1#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_oanda.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_oanda.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_influxdb.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_oanda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="120" column="44" lean-forward="true" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_oanda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/sub_kraken_tick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/zero_mq/pub_kraken_tick.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>python</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

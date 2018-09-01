@@ -6,7 +6,7 @@ sub_port = "5558"
 sub_context = zmq.Context()
 sub_socket = sub_context.socket(zmq.SUB)
 sub_topicfilter = "kraken_tick"
-sub_socket.setsockopt_string(zmq.SUBSCRIBE,sub_topicfilter)
+sub_socket.setsockopt_string(zmq.SUBSCRIBE, sub_topicfilter)
 sub_socket.setsockopt_string(zmq.SUBSCRIBE, "1")
 print ("PUB TOPIC: "+sub_topicfilter+". PORT: " +sub_port)
 sub_socket.connect("tcp://localhost:%s" % sub_port)
@@ -369,7 +369,7 @@ while True:
                 spread_t_bid = kraken_EURUSD_ASK_5_t0 - kraken_EURUSD_BID_5_t1
                 messagedata = str (instrument_t0 ) + "\x01" + str (kraken_EURUSD_BID_5_t0) + "\x01" + str (kraken_EURUSD_ASK_5_t0) + "\x01" + str (instrument) + "\x01" + str ( float(kraken_EURUSD_BID_5_t1) ) + "\x01" + str ( float(kraken_EURUSD_ASK_5_t1) ) + "\x01" + str(round(spread, 5)) + "\x01" + str(round(spread_t_bid, 5)) + "\x01" + str(round(spread_t_ask,5))
                 pub_socket.send_string("%s %s" % (pub_topic, messagedata))
-                print(messagedata)
+                # print(messagedata)
                 instrument_t0 = instrument
 
 

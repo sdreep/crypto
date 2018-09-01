@@ -10,6 +10,7 @@ if len(sys.argv) > 1:
 
 context = zmq.Context()
 socket = context.socket(zmq.PUB)
+topic = 'kraken_tick'
 
 # Update
 # socket.setsockopt(zmq.ZMQ_IMMEDIATE, 1)

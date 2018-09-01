@@ -12,13 +12,11 @@ from sklearn.metrics import mean_squared_error as MSE
 from sqlalchemy import create_engine
 import pandas as pds
 from sqlalchemy import text
-
 import datetime
 from pyoanda import Client, PRACTICE, Order
 
 import requests
 import simplejson as json
-
 from oandapyV20 import API
 from oandapyV20.exceptions import V20Error
 from oandapyV20.endpoints.pricing import PricingStream

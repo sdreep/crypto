@@ -3,13 +3,13 @@ import zmq
 from influxdb import InfluxDBClient
 
 # InfluxDB connections settings
-host = '192.168.0.15'
-port = 8186
+host = '192.168.0.33'
+port = 8086
 user = 'zmq'
 password = 'zmq'
 dbname = 'tick'
 
-myclient = InfluxDBClient(host, port, user, password, dbname,use_udp=False)
+myclient = InfluxDBClient(host, port, user, password, dbname, use_udp=False)
 
 
 
@@ -28,7 +28,7 @@ if len(sys.argv) > 2:
 context = zmq.Context()
 socket = context.socket(zmq.SUB)
 topicfilter = "kraken_tick"
-socket.setsockopt_string(zmq.SUBSCRIBE,topicfilter)
+socket.setsockopt_string(zmq.SUBSCRIBE, topicfilter)
 socket.setsockopt_string(zmq.SUBSCRIBE, "1")
 print ("Collecting updates from weather server...")
 socket.connect("tcp://192.168.0.13:%s" % port)
@@ -58,11 +58,28 @@ while True:
     # total_value += int(messagedata)
     # print ( topic , instrument, ask_price , ask_whole_lot_volume , ask_lot_volume, bid_price , bid_whole_lot_volume , bid_lot_volume,    last_trade_price , last_trade_lot_volume, volume_today, volume_last_24_hours ,vwap_today, vwap_last_24_hours ,number_of_trades_today,number_of_trades_last_24_hours ,low_today, low_last_24_hours ,high_today, high_last_24_hours ,opening_price)
 
+    if instrument[ 0 ] == 'X' and instrument[ -4 ] == 'Z':
+        base_ccy = instrument[ 1:4 ]
+        term_ccy = instrument[ -3: ]
+        # print (base_ccy,term_ccy)
+    
+    elif len ( instrument ) == 6 and instrument[ -4 ] != '_':
+        base_ccy = instrument[ 0:3 ]
+        term_ccy = instrument[ 3:6 ]
+    
+    if instrument[ 0 ] == 'X' and instrument[ -4 ] == 'X':
+        base_ccy = instrument[ 1:4 ]
+        term_ccy = instrument[ -3: ]
+    
+    
+    # print (messagedata,str(instrument))
     tick_json = [
         {
             "measurement": "tick",
             "tags": {
                 "instrument": str(instrument),
+                "base_ccy": base_ccy,
+                "term_ccy": term_ccy
             },
             "fields": {
                 "ask_price": float ( ask_price ) ,
@@ -87,6 +104,7 @@ while True:
             }
         }
     ]
+    # print (base_ccy,term_ccy)
     myclient.write_points ( tick_json , batch_size=500 , time_precision='ms' )
 # print (topic, instrument, volume_today, volume_last_24_hours ,vwap_today, vwap_last_24_hours ,number_of_trades_today,number_of_trades_last_24_hours ,low_today, low_last_24_hours ,high_today, high_last_24_hours ,opening_price)
 

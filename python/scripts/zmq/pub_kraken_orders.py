@@ -9,7 +9,7 @@ sub_port = "5559"
 sub_context = zmq.Context()
 sub_socket = sub_context.socket(zmq.SUB)
 sub_topicfilter = "kr_eurusd_tick"
-sub_socket.setsockopt_string(zmq.SUBSCRIBE,sub_topicfilter)
+sub_socket.setsockopt_string(zmq.SUBSCRIBE, sub_topicfilter)
 sub_socket.setsockopt_string(zmq.SUBSCRIBE, "1")
 print ("Collecting updates from weather server...")
 sub_socket.connect("tcp://192.168.0.13:%s" % sub_port)

@@ -1,12 +1,13 @@
 import sys
 import zmq
 import simplejson as json
+
 # sub-socket client
 sub_port = "5560"
 sub_context = zmq.Context()
 sub_socket = sub_context.socket(zmq.SUB)
-sub_topicfilter = "kr_order_book"
-sub_socket.setsockopt_string(zmq.SUBSCRIBE,sub_topicfilter)
+sub_topicfilter = "kr_depth"
+sub_socket.setsockopt_string(zmq.SUBSCRIBE, sub_topicfilter)
 sub_socket.setsockopt_string(zmq.SUBSCRIBE, "1")
 print ("PORT: " +sub_port+ ". SUB TOPIC: " + sub_topicfilter)
 sub_socket.connect("tcp://localhost:%s" % sub_port)
@@ -15,22 +16,15 @@ sub_socket.connect("tcp://localhost:%s" % sub_port)
 pub_port = "5561"
 pub_context = zmq.Context()
 pub_socket = pub_context.socket(zmq.PUB)
-pub_topic = 'kr_eurusd_depth'
+pub_topic = "kr_eurusd_depth"
 
 # Update
 pub_socket.setsockopt(zmq.SNDBUF, 10240)
 pub_socket.setsockopt(zmq.SNDHWM, 10000)
 print ("PORT: " +pub_port+ ". PUB TOPIC: "+pub_topic)
 pub_socket.bind("tcp://*:%s" % pub_port)
-
-
-
-
-
-
 kraken_EURUSD_BID = 0.11111
 kraken_EURUSD_ASK = 100000.11111
-
 BCHUSD_bid_price= 0.0000001
 DASHUSD_bid_price= 0.0000001
 USDTZUSD_bid_price= 0.0000001
@@ -82,7 +76,6 @@ XZECZEUR_ask_price= 1000000
 
 kraken_EURUSD_ASK = 1.2
 kraken_EURUSD_BID = 1.1
-
 kraken_EURUSD_ASK_5_t1 = 1.2
 kraken_EURUSD_BID_5_t1 = 1.1
 
@@ -90,12 +83,18 @@ bid_hedge = ""
 ask_hedge = ""
 instrument_t0=""
 
+bid_t1 = 0.0001
+bid_volume_t1 = 0.0001
+ask_t1 = 0.0001
+ask_volume_t1 = 0.0001
+
 
 
 while True:
     topic, response = sub_socket.recv_string().split()
     msg = json.loads(response)
     ticks = msg['result']
+    # print (response)
     for tick in ticks:
         instrument = str(tick)
         tick = ticks[instrument]
@@ -105,11 +104,17 @@ while True:
             top_bid_volume = str(item[1])
             timestamp = str(item[2])
             # ms_timestamp = datetime.fromtimestamp ( timestamp ).strftime ( '%Y-%m-%dT%H:%M:%S.%f' )
-            line = 'depth,instrument=' + instrument + ' tier_id=' + tier_id + ',top_bid=' + top_bid + ',top_bid_volume=' + top_bid_volume
-            myclient.write_points(line, protocol='line',time_precision='ms')
-            print(line)
+#            line = 'depth,instrument=' + instrument + ' tier_id=' + tier_id + ',top_bid=' + top_bid + ',top_bid_volume=' + top_bid_volume
+#            myclient.write_points(line, protocol='line',time_precision='ms')
+#            print(line)
+        for index, item in enumerate(tick['asks']):
+            tier_id = str(index)
+            top_ask = str(item[0])
+            top_ask_volume = str(item[1])
+            timestamp = str(item[2])
     str(instrument)
-    
+    bid_price=top_bid
+    ask_price=top_ask
     if ('EUR' in instrument or 'USD' in instrument) and (instrument != 'USDTZUSD'):
         if instrument == 'BCHUSD':
             BCHUSD_ask_price = float ( ask_price )
@@ -378,6 +383,16 @@ while True:
 
         if 1.1 <= float(kraken_EURUSD_BID) <= 1.3:
             if 1.1 <= float(kraken_EURUSD_ASK)<=1.3:
+                bid_t0 = float(bid_t1)
+                bid_volume_t0 = float(bid_volume_t1)
+                ask_t0 = float(ask_t1)
+                ask_volume_t0 = float(ask_volume_t1)
+
+                bid_t1 = float(top_bid)
+                bid_volume_t1 = float(top_bid_volume)
+                ask_t1 = float(top_ask)
+                ask_volume_t1 = float(top_ask_volume)
+
                 kraken_EURUSD_BID_5_t0 = kraken_EURUSD_BID_5_t1
                 kraken_EURUSD_ASK_5_t0 = kraken_EURUSD_ASK_5_t1
                 kraken_EURUSD_BID_5_t1 = round(kraken_EURUSD_BID,5)
@@ -385,9 +400,9 @@ while True:
                 spread = (float(kraken_EURUSD_ASK_5_t1 ) - float ( kraken_EURUSD_BID_5_t1 ))
                 spread_t_ask = kraken_EURUSD_ASK_5_t1 - kraken_EURUSD_BID_5_t0
                 spread_t_bid = kraken_EURUSD_ASK_5_t0 - kraken_EURUSD_BID_5_t1
-                messagedata = str (instrument_t0 ) + "\x01" + str (kraken_EURUSD_BID_5_t0) + "\x01" + str (kraken_EURUSD_ASK_5_t0) + "\x01" + str (instrument) + "\x01" + str ( float(kraken_EURUSD_BID_5_t1) ) + "\x01" + str ( float(kraken_EURUSD_ASK_5_t1) ) + "\x01" + str(round(spread, 5)) + "\x01" + str(round(spread_t_bid, 5)) + "\x01" + str(round(spread_t_ask,5))
+                messagedata = str (instrument_t0 ) + "\x01" + str (kraken_EURUSD_BID_5_t0) + "\x01" + str (kraken_EURUSD_ASK_5_t0) +"\x01" + str(round(bid_t0,5)) + "\x01" + str(round(bid_volume_t0,5)) + "\x01"  + str(round(ask_t0,5)) +"\x01" +  str(round(ask_volume_t0,5)) + "\x01" + str (instrument) + "\x01" + str ( float(kraken_EURUSD_BID_5_t1) ) + "\x01" + str ( float(kraken_EURUSD_ASK_5_t1) ) +  "\x01" +  str(round(bid_t1,5)) + "\x01" + str(round(bid_volume_t1,5)) + "\x01" + str(round(ask_t1,5)) +  "\x01" + str(round(ask_volume_t1,5)) + "\x01" + str(round(spread, 5)) + "\x01" + str(round(spread_t_bid, 5)) + "\x01" + str(round(spread_t_ask,5))
                 pub_socket.send_string("%s %s" % (pub_topic, messagedata))
-                # print(messagedata)
+                print(messagedata)
                 instrument_t0 = instrument
 
 

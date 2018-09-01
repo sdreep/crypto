@@ -8,9 +8,9 @@ if len(sys.argv) > 1:
     port = sys.argv[1]
     int(port)
 
-if len(sys.argv) > 2:
-    port1 = sys.argv[2]
-    int(port1)
+# if len(sys.argv) > 2:
+#     port1 = sys.argv[2]
+#     int(port1)
 
 # Socket to talk to server
 context = zmq.Context()
@@ -20,21 +20,21 @@ socket.setsockopt_string(zmq.SUBSCRIBE, topicfilter)
 socket.setsockopt_string(zmq.SUBSCRIBE, "1")
 
 print ("Collecting updates from weather server...")
-socket.connect("tcp://localhost:%s" % port)
-
-if len(sys.argv) > 2:
-    socket.connect("tcp://localhost:%s" % port1)
+socket.connect("tcp://192.168.0.13:%s" % port)
+#
+# if len(sys.argv) > 2:
+#     socket.connect("tcp://localhost:%s" % port1)
 
 # Subscribe to zipcode, default is NYC, 10001
 
 # InfluxDB connections settings
-host = '192.168.0.15'
-port = 8186
+host = '192.168.0.33'
+port = 8086
 user = 'zmq'
 password = 'zmq'
 dbname = 'tick'
 
-myclient = InfluxDBClient(host, port, user, password, dbname,use_udp=False)
+myclient = InfluxDBClient(host, port, user, password, dbname, use_udp=False)
 
 
 # Process 5 updates

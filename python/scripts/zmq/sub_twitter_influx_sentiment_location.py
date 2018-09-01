@@ -1,9 +1,10 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python3.5
 
 #-----------------------------------------------------------------------
 # twitter-stream-format:
 #  - ultra-real-time stream of twitter's public timeline.
 #    does some fancy output formatting.
+#  new-service.sh "sub_twitter_influx_sentiment_location" "sub_twitter_influx_sentiment_location" "/usr/bin/python3.5 /home/zmq/nabla/python/scripts/zmq/sub_twitter_influx_sentiment_location.py" "zmq"
 #-----------------------------------------------------------------------
 
 from twitter import *
@@ -69,8 +70,8 @@ from influxdb import SeriesHelper
 
 
 # InfluxDB connections settings
-host = '192.168.0.15'
-port = 8186
+host = '192.168.0.33'
+port = 8086
 user = 'twitter'
 password = 'twitter'
 dbname = 'twitter'
@@ -113,7 +114,7 @@ def pipeline_record(timetext, positive_score, negative_score ,time_zone,location
         conn.commit()
         cur.close()
         # conn.close()
-        print ("%s|%s|%s|%s|%s|@%s|%s|%s|%s|%s" % ((time_colored, positive_score, negative_score ,time_zone,location_colored, user_colored,statuses_count,followers_count, lang,text_colored)))
+        # print ("%s|%s|%s|%s|%s|@%s|%s|%s|%s|%s" % ((time_colored, positive_score, negative_score ,time_zone,location_colored, user_colored,statuses_count,followers_count, lang,text_colored)))
     except psycopg2.DatabaseError as e:
         print ("DB_ERROR:",'Error %s' % e)
 
@@ -123,13 +124,13 @@ def word_feats(words):
 # positive_vocab = ['awesome', 'outstanding', 'fantastic', 'terrific', 'good', 'nice', 'great', ':)']
 # negative_vocab = ['bad', 'terrible', 'useless', 'hate', ':(']
 neutral_vocab = ['movie', 'the', 'sound', 'was', 'is', 'actors', 'did', 'know', 'words', 'not']
-negative_vocab = [line.strip() for line in open("/home/zmq/nabla/text/opinion_lexicon/negative-words.txt", 'r')]
-positive_vocab = [line.strip() for line in open("/home/zmq/nabla/text/opinion_lexicon/positive-words.txt", 'r')]
+negative_vocab = [line.strip() for line in open("/home/zmq/nabla/python/scripts/zmq/text/opinion_lexicon/negative-words.txt", 'r')]
+positive_vocab = [line.strip() for line in open("/home/zmq/nabla/python/scripts/zmq/text/opinion_lexicon/positive-words.txt", 'r')]
 positive_features = [(word_feats(pos), 'pos') for pos in positive_vocab]
 negative_features = [(word_feats(neg), 'neg') for neg in negative_vocab]
 neutral_features = [(word_feats(neu), 'neu') for neu in neutral_vocab]
 train_set = negative_features + positive_features + neutral_features
-print (train_set)
+# print (train_set)
 classifier = NaiveBayesClassifier.train(train_set)
 # classifier_positive = PositiveNaiveBayesClassifier.train(positive_features,neutral_features,negative_features)
 
@@ -163,10 +164,21 @@ def sentiment_analysis_predict(sentence):
         neg = 0
     fneg = neg
     return str(float(pos) / len(words)), str(float(neg) / len(words))
-
+geohash = ''
 def twitter(SeriesHelper):
     try:
         for tweet in tweet_iter:
+            coordinates = json.dumps(tweet['coordinates'])
+            if coordinates != 'null':
+                coordinates_keys = tweet[ 'coordinates' ].keys ()
+                coordinates = str ( tweet[ 'coordinates' ][ 'coordinates' ] )
+                # print (coordinates_keys)
+                # print (tweet['coordinates']['coordinates'])
+                long = tweet[ 'coordinates' ][ 'coordinates' ][ 1 ]
+                lat = tweet[ 'coordinates' ][ 'coordinates' ][ 0 ]
+                geohash = pgh.encode ( long , lat )
+                # print ( long , lat , colored ( geohash , "green" ) )
+
             # print (tweet)
         # turn the date string into a date object that python can handle
             tweet_id = tweet["id_str"]
@@ -197,7 +209,6 @@ def twitter(SeriesHelper):
             # add some indenting to each line and wrap the text nicely
             indent = " " * 0
             text_colored = fill(text_colored, 180, initial_indent = indent, subsequent_indent = indent)
-            coordinates = json.dumps(tweet['coordinates'])
             long = 0
             lat = 0
             geohash = ''
@@ -210,14 +221,13 @@ def twitter(SeriesHelper):
                 place_keys = tweet['place'].keys()
                 # print (place_keys)
                 place_tag = []
-
                 place_tag = tweet['place']['bounding_box']['coordinates']
                 for fields in place_tag:
                     for i, f in enumerate(fields):
                         if i == 0:
                             pgeoalat = f[1]
                             pgeoalong = f[0]
-                            print (colored(pgeoalat, "blue"), colored(pgeoalong, "blue"))
+                            # print (colored(pgeoalat, "blue"), colored(pgeoalong, "blue"))
                             geohash = pgh.encode(pgeoalat, pgeoalong)
                         if i == 1:
                             pgeob = pgh.encode(f[0], f[1])
@@ -225,19 +235,10 @@ def twitter(SeriesHelper):
                             pgeoc = pgh.encode(f[0], f[1])
                         if i == 3:
                             pgeod = pgh.encode(f[0], f[1])
-                    print (pgeoa, pgeob, pgeoc, pgeod)
+                    # print (pgeoa, pgeob, pgeoc, pgeod)
 
                 polygon = tweet['place']['bounding_box']
-                print (colored(place_tag, "blue"))
-                if coordinates != 'null':
-                    coordinates_keys = tweet['coordinates'].keys()
-                    coordinates = str(tweet['coordinates']['coordinates'])
-                    # print (coordinates_keys)
-                    # print (tweet['coordinates']['coordinates'])
-                    long = tweet['coordinates']['coordinates'][1]
-                    lat = tweet['coordinates']['coordinates'][0]
-                    geohash = pgh.encode(long, lat)
-                    print (long, lat, colored(geohash, "green"))
+                # print (colored(place_tag, "blue"))
 
             positive_score_colored = colored(pos_score_rnd,"green")
             negative_score_colored = colored(neg_score_rnd,"red")
@@ -253,7 +254,6 @@ def twitter(SeriesHelper):
                     "measurement": "crypto",
                     "tags": {
                         "lang": lang,
-                        "location": location,
                         "time_zone": time_zone,
                         "geohash": geohash
                     },
@@ -264,32 +264,26 @@ def twitter(SeriesHelper):
                         "retweet_count": retweet_count,
                         "text": text,
                         "user": user,
-                        "geohash": geohash,
                         "pgeoa": pgeoa,
                         "pgeob": pgeob,
                         "pgeoc": pgeoc,
                         "pgeod": pgeod,
-                        "polygon": polygon,
                         "statuses_count": statuses_count,
                         "coordinates": coordinates,
                         "long_coordinates": long,
                         "lat_coordinates": lat,
                         "pos_score": pos_score,
                         "neg_score": neg_score,
+                        "location": location
                     }
                 }
              ]
-
-            myclient.write_points(tweet_json, protocol='json', batch_size=500, time_precision='ms')
+            myclient.write_points ( tweet_json ,retention_policy='autogen', protocol='json' , time_precision='ms' )
+            if geohash != '':
+                myclient.write_points(tweet_json,retention_policy='geohash', protocol='json', time_precision='ms')
             #pipeline_record(timetext, positive_score, negative_score, time_zone, location_colored, user_colored,statuses_count, followers_count, lang, text_colored)
-
     except InfluxDBClientError as e:
         print("DB_ERROR:", 'Error %s' % e)
-
-
-
-
-
 
 def main():
     # global curve, data, ptr, p, lastTime, fps, x
@@ -304,8 +298,6 @@ def main():
     # if options.verbose:
     #     displayHeartbeat = True
     twitter(SeriesHelper)
-
-
 
 if __name__ == '__main__':
     main()

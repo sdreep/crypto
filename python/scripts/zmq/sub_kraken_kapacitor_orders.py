@@ -35,8 +35,8 @@ while True:
             timestamp = str(item[2])
             # ms_timestamp = datetime.fromtimestamp ( timestamp ).strftime ( '%Y-%m-%dT%H:%M:%S.%f' )
             line = 'depth,instrument=' + instrument + ' tier_id=' + tier_id + ',top_bid=' + top_bid + ',top_bid_volume=' + top_bid_volume
-            myclient.write_points(line, protocol='line',time_precision='ms')
-            print(line)
+            myclient.write_points(line, batch_size=500, protocol='line',time_precision='ms')
+            # print(line)
 
         for index, item in enumerate(tick['asks']):
             tier_id = str(index)
@@ -46,4 +46,4 @@ while True:
             # ms_timestamp = datetime.fromtimestamp ( timestamp ).strftime ( '%Y-%m-%dT%H:%M:%S.%f' )
             line = 'depth,instrument=' + instrument + ' tier_id=' + tier_id + ',top_ask=' + top_ask + ',top_ask_volume=' + top_ask_volume
             myclient.write_points(line, protocol='line', time_precision='ms')
-            print (line)
+            # print (line)

@@ -99,7 +99,7 @@ def oanda(displayHeartbeat):
         for line in response.iter_lines(1):
             if line:
                 msg =json.loads(line)
-                # print (msg)
+                print (msg)
                 if 'tick' in msg:
                     instrument = msg['tick']['instrument']
                     timestamp = msg['tick']['time']
@@ -124,7 +124,7 @@ def oanda(displayHeartbeat):
                     messagedata = heartbit_ts, now_ts, lag
                     socket.send_string( "%s %s" % (topic , messagedata) )
 
-                    print ('HEARTBEAT',heartbit_ts, now_ts, lag)
+                    # print ('HEARTBEAT',heartbit_ts, now_ts, lag)
 
     except Exception as e:
         print ("Caught exception :\n" + str(e))

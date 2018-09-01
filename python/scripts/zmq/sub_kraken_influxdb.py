@@ -3,8 +3,8 @@ import zmq
 from influxdb import InfluxDBClient
 
 # InfluxDB connections settings
-host = '192.168.0.15'
-port = 8186
+host = '192.168.0.33'
+port = 8086
 user = 'zmq'
 password = 'zmq'
 dbname = 'tick'
@@ -87,7 +87,7 @@ while True:
             }
         }
     ]
-    myclient.write_points ( tick_json , time_precision='u' )
+    myclient.write_points ( tick_json ,batch_size=500,  time_precision='ms' )
 # print (topic, instrument, volume_today, volume_last_24_hours ,vwap_today, vwap_last_24_hours ,number_of_trades_today,number_of_trades_last_24_hours ,low_today, low_last_24_hours ,high_today, high_last_24_hours ,opening_price)
 
 # print ("Average messagedata value for topic '%s' was %dF" % (topicfilter, total_value / update_nbr))

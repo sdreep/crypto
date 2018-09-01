@@ -5,7 +5,7 @@ do
 
 #	for(( ; ; ))
 #	do
-    	python3.5 './sub_twitter_influx_sentiment_location.py'
+    	python3.5 '/home/zmq/nabla/python/scripts/zmq/sub_twitter_influx_sentiment_location.py'
 #'/home/sdreep/nabla/python/oanda_rss_pybrain_position_order.py'
 #		for(( ; ; ))
 #		do
