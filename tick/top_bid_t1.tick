@@ -1,0 +1,58 @@
+var kraken_EURUSD_BID_5_t1 = stream
+    |from()
+        .measurement('synthetic')
+        // Get the most recent score for each player per game.
+        // Not likely that a player is playing two games but just in case.
+        .groupBy('instrument_t1')
+    |window()
+        // keep a buffer of the last 11s of scores
+        // just in case a player score hasn't updated in a while
+        .period(100ms)
+        // Emit the current score per player every second.
+        .every(1ms)
+        // Align the window boundaries to be on the second.
+        .align()
+    |last('kraken_EURUSD_BID_5_t1')
+
+// Calculate the top 15 scores per game
+var top_kraken_EURUSD_BID_5_t1 = kraken_EURUSD_BID_5_t1
+    |groupBy('instrument_t1')
+    |top(1, 'kraken_EURUSD_BID_5_t1', 'instrument_t1')
+
+// Expose top scores over the HTTP API at the 'top_scores' endpoint.
+// Now your app can just request the top scores from Kapacitor
+// and always get the most recent result.
+//
+// http://localhost:9092/kapacitor/v1/tasks/top_scores/top_scores
+top_kraken_EURUSD_BID_5_t1
+    |httpOut('top_kraken_EURUSD_BID_5_t1')
+
+// Sample the top scores and keep a score once every 10s
+var top_kraken_EURUSD_BID_5_t1_Sampled = top_kraken_EURUSD_BID_5_t1
+    |sample(1s)
+
+// Store top fifteen player scores in InfluxDB.
+top_kraken_EURUSD_BID_5_t1_Sampled
+    |influxDBOut()
+        .database('tick')
+        .measurement('top_kraken_EURUSD_BID_5_t1_Sampled')
+
+// Calculate the max and min of the top scores.
+var max = top_kraken_EURUSD_BID_5_t1_Sampled
+    |max('top_kraken_EURUSD_BID_5_t1_Sampled')
+
+var min = top_kraken_EURUSD_BID_5_t1_Sampled
+    |min('top_kraken_EURUSD_BID_5_t1_Sampled')
+
+// Join the max and min streams back together and calculate the gap.
+max
+    |join(min)
+        .as('max', 'min')
+    // Calculate the difference between the max and min scores.
+    // Rename the max and min fields to more friendly names 'topFirst', 'topLast'.
+    |eval(lambda: "max.max" - "min.min", lambda: "max.max", lambda: "min.min")
+        .as('gap', 'top_kraken_EURUSD_BID_5_t1First', 'top_kraken_EURUSD_BID_5_t1Last')
+    // Store the fields: gap, topFirst and topLast in InfluxDB.
+    |influxDBOut()
+        .database('tick')
+        .measurement('top_kraken_EURUSD_BID_5_t1_gap')
